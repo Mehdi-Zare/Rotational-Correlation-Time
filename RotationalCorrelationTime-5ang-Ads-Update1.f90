@@ -1,5 +1,14 @@
 program fun
 implicit none
+!**************************************************************************************************!
+!               Author          :       Mehdi Zare                                                 !
+!               date            :       04/01/2019                                                 !
+!               Purpose         :       Calculating Rotaional Correlation time                     !
+!                                       for water molecules in 5 ang radius of                     !
+!                                       adsorbate.                                                 !
+!               Modification    :                                                                  !
+!**************************************************************************************************!
+
 
 integer  ,  parameter                           ::      dp = selected_real_kind(15, 307)
 character(len=50)                               ::      file1 
